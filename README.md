@@ -10,7 +10,7 @@ The project explores a novel framework for transforming non-jazz piano MIDI file
 
 ## Table of Contents
 - [The Problem](#the-problem)
-- [Our Solution](#our-solution)
+- [Solution](#solution)
 - [Key Features](#key-features)
 - [Methodology Overview](#methodology-overview)
 - [Model Architectures](#model-architectures)
@@ -31,7 +31,7 @@ This project addresses three core challenges:
 2.  **The Style-Content Trade-off:** Existing models often struggle to infuse a new style (like jazz) without destroying the melodic and harmonic structure of the original piece.
 3.  **Lack of Specialized Tools:** There is a need for AI systems designed specifically to learn and transfer the nuanced, improvisational elements of jazz.
 
-## Our Solution
+## Solution
 
 This project introduces a multi-stage framework to tackle the style transfer challenge. We develop, train, and compare three different deep learning architectures, which are then fine-tuned using **Proximal Policy Optimization (PPO)**, a reinforcement learning algorithm.
 
